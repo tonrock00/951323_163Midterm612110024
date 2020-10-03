@@ -42,12 +42,6 @@ public class GameApplicationManager : MonoBehaviour
     }
     protected bool _isOptionMenuActive = false;
 
-    public bool IsStagesSelectActive
-    {
-        get { return _isStageselectActive; }
-        set { _isStageselectActive = value; }
-    }
-    protected bool _isStageselectActive = false;
     public int DifficultyLevel{get;set;}
     public bool MusicEnabled{get;set;}
     public bool SFXEnabled{get;set;}

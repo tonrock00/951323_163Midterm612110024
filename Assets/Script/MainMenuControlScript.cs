@@ -25,11 +25,7 @@ public class MainMenuControlScript : MonoBehaviour
     }
     public void StageSelectButtonClick(Button button)
     {
-        if (!GameApplicationManager.Instance.IsStagesSelectActive)
-        {
-            SceneManager.LoadScene("SceneStages", LoadSceneMode.Additive);
-            GameApplicationManager.Instance.IsStagesSelectActive = true;
-        }
+        SceneManager.LoadScene("SceneStages");
     }
     public void OptionsButtonClick(Button button)
     {

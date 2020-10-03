@@ -23,19 +23,19 @@ public class StagesSelectionControlScript : MonoBehaviour
         
     }
 
-    public void BackButtonClick(Button button)
-    {
-        SceneManager.UnloadSceneAsync("SceneStages");
-        GameApplicationManager.Instance.IsStagesSelectActive = false;
-    }
     public void Stage1ButtonClick(Button button)
     {
         SceneManager.UnloadSceneAsync("SceneStages");
-        SceneManager.LoadScene("SceneMainMenu");
+        SceneManager.LoadScene("SceneStage1");
     }
     public void Stage2ButtonClick(Button button)
     {
         SceneManager.UnloadSceneAsync("SceneStages");
-        SceneManager.LoadScene("SceneMainMenu");
+        SceneManager.LoadScene("SceneStage2");
+    }
+    public void BackButtonClick(Button button)
+    {
+        SceneManager.UnloadSceneAsync("SceneStages");
+        SceneManager.LoadScene("SceneMainmenu");
     }
 }
