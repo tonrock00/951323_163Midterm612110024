@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SceneLoseStage1.unity
     guid: 42707fd19f449d44b834e9c77e03e84c
+  - enabled: 1
+    path: Assets/Scenes/SceneWinStage2.unity
+    guid: e7378973d35f97b47a9afa269dd195d5
+  - enabled: 1
+    path: Assets/Scenes/SceneLoseStage2.unity
+    guid: 2ebd1e099db2c84429fd69cf33d4bdbd
   m_configObjects: {}
